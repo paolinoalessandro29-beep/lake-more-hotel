@@ -1,0 +1,351 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: images
+public_folder: /images
+
+locale: it
+
+collections:
+  - name: "contenuti"
+    label: "Contenuti Sito"
+    files:
+
+      - label: "🏨 Informazioni Hotel"
+        name: "hotel"
+        file: "content.json"
+        fields:
+
+          - label: "Hotel"
+            name: "hotel"
+            widget: "object"
+            fields:
+              - { label: "Nome hotel", name: "name", widget: "string" }
+              - { label: "Tagline (italiano)", name: "tagline_it", widget: "string" }
+              - { label: "Tagline (inglese)", name: "tagline_en", widget: "string" }
+              - { label: "Occhiello hero (italiano)", name: "eyebrow_it", widget: "string" }
+              - { label: "Occhiello hero (inglese)", name: "eyebrow_en", widget: "string" }
+              - { label: "Telefono", name: "phone", widget: "string" }
+              - { label: "Email", name: "email", widget: "string" }
+              - { label: "Indirizzo (italiano)", name: "address_it", widget: "string" }
+              - { label: "Indirizzo (inglese)", name: "address_en", widget: "string" }
+              - { label: "N° camere (statistica)", name: "stat_rooms", widget: "string" }
+              - { label: "N° ristoranti (statistica)", name: "stat_restaurants", widget: "string" }
+              - { label: "Rating (es. 5★)", name: "stat_rating", widget: "string" }
+              - { label: "Etichetta camere (italiano)", name: "stat_rooms_label_it", widget: "string", required: false }
+              - { label: "Etichetta camere (inglese)", name: "stat_rooms_label_en", widget: "string", required: false }
+              - { label: "Etichetta ristoranti (italiano)", name: "stat_rest_label_it", widget: "string", required: false }
+              - { label: "Etichetta ristoranti (inglese)", name: "stat_rest_label_en", widget: "string", required: false }
+              - { label: "URL logo", name: "logo_url", widget: "string" }
+
+          - label: "Prenotazione"
+            name: "booking"
+            widget: "object"
+            fields:
+              - { label: "URL Booking Engine SmartPMS", name: "engine_url", widget: "string", hint: "Incolla qui il link del booking engine di SmartPMS" }
+              - { label: "Testo pulsante Prenota (italiano)", name: "button_it", widget: "string" }
+              - { label: "Testo pulsante Prenota (inglese)", name: "button_en", widget: "string" }
+
+          - label: "Menu Navigazione"
+            name: "nav"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Camere (italiano)", name: "camere_it", widget: "string" }
+              - { label: "Camere (inglese)", name: "camere_en", widget: "string" }
+              - { label: "F&B (italiano)", name: "fb_it", widget: "string" }
+              - { label: "F&B (inglese)", name: "fb_en", widget: "string" }
+              - { label: "SPA (italiano)", name: "spa_it", widget: "string" }
+              - { label: "SPA (inglese)", name: "spa_en", widget: "string" }
+              - { label: "Eventi (italiano)", name: "eventi_it", widget: "string" }
+              - { label: "Eventi (inglese)", name: "eventi_en", widget: "string" }
+              - { label: "Dove siamo (italiano)", name: "dove_it", widget: "string" }
+              - { label: "Dove siamo (inglese)", name: "dove_en", widget: "string" }
+
+          - label: "🏞️ Hero (foto e pulsanti homepage)"
+            name: "hero"
+            widget: "object"
+            fields:
+              - label: "Foto slideshow (4 immagini)"
+                name: "slides"
+                widget: "list"
+                field: { label: "URL foto", name: "url", widget: "image" }
+              - { label: "Pulsante 'Prenota' (italiano)", name: "cta_book_it", widget: "string" }
+              - { label: "Pulsante 'Prenota' (inglese)", name: "cta_book_en", widget: "string" }
+              - { label: "Pulsante 'Scopri camere' (italiano)", name: "cta_rooms_it", widget: "string" }
+              - { label: "Pulsante 'Scopri camere' (inglese)", name: "cta_rooms_en", widget: "string" }
+
+          - label: "📖 Sezione Chi Siamo (homepage)"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "Occhiello (italiano)", name: "eyebrow_it", widget: "string" }
+              - { label: "Occhiello (inglese)", name: "eyebrow_en", widget: "string" }
+              - { label: "Titolo (italiano, HTML permesso)", name: "title_it", widget: "string" }
+              - { label: "Titolo (inglese, HTML permesso)", name: "title_en", widget: "string" }
+              - { label: "Testo (italiano)", name: "text_it", widget: "text" }
+              - { label: "Testo (inglese)", name: "text_en", widget: "text" }
+              - { label: "Foto sezione", name: "image_url", widget: "image" }
+
+          - label: "🎯 Tessere Homepage (4 features)"
+            name: "home_features"
+            widget: "list"
+            min: 1
+            max: 4
+            fields:
+              - { label: "Etichetta (italiano)", name: "label_it", widget: "string" }
+              - { label: "Etichetta (inglese)", name: "label_en", widget: "string" }
+              - { label: "Titolo (italiano)", name: "title_it", widget: "string" }
+              - { label: "Titolo (inglese)", name: "title_en", widget: "string" }
+              - { label: "Descrizione (italiano)", name: "desc_it", widget: "text" }
+              - { label: "Descrizione (inglese)", name: "desc_en", widget: "text" }
+
+          - label: "🛏️ Anteprima Camere Homepage"
+            name: "home_rooms"
+            widget: "object"
+            fields:
+              - { label: "Occhiello (italiano)", name: "eyebrow_it", widget: "string" }
+              - { label: "Occhiello (inglese)", name: "eyebrow_en", widget: "string" }
+              - { label: "Titolo (italiano, HTML permesso)", name: "title_it", widget: "string" }
+              - { label: "Titolo (inglese, HTML permesso)", name: "title_en", widget: "string" }
+              - label: "Le 3 camere in evidenza"
+                name: "cards"
+                widget: "list"
+                min: 1
+                max: 3
+                fields:
+                  - { label: "Tipo (italiano)", name: "type_it", widget: "string" }
+                  - { label: "Tipo (inglese)", name: "type_en", widget: "string" }
+                  - { label: "Nome (italiano)", name: "name_it", widget: "string" }
+                  - { label: "Nome (inglese)", name: "name_en", widget: "string" }
+                  - { label: "Foto", name: "image_url", widget: "image" }
+
+          - label: "📍 Strip Posizione Homepage"
+            name: "home_location"
+            widget: "object"
+            fields:
+              - { label: "Occhiello (italiano)", name: "eyebrow_it", widget: "string" }
+              - { label: "Occhiello (inglese)", name: "eyebrow_en", widget: "string" }
+              - { label: "Titolo (italiano, HTML permesso)", name: "title_it", widget: "string" }
+              - { label: "Titolo (inglese, HTML permesso)", name: "title_en", widget: "string" }
+              - { label: "Foto", name: "image_url", widget: "image" }
+
+          - label: "🛌 Pagina Camere - Banner"
+            name: "rooms_page"
+            widget: "object"
+            fields:
+              - { label: "Foto banner", name: "banner_image", widget: "image" }
+              - { label: "Occhiello banner (italiano)", name: "banner_ey_it", widget: "string" }
+              - { label: "Occhiello banner (inglese)", name: "banner_ey_en", widget: "string" }
+              - { label: "Titolo banner (italiano, HTML permesso)", name: "banner_title_it", widget: "string" }
+              - { label: "Titolo banner (inglese, HTML permesso)", name: "banner_title_en", widget: "string" }
+
+          - label: "🛏️ Camere (lista completa)"
+            name: "rooms"
+            widget: "list"
+            fields:
+              - { label: "ID interno (non modificare)", name: "id", widget: "string" }
+              - { label: "Tipo (italiano)", name: "type_it", widget: "string" }
+              - { label: "Tipo (inglese)", name: "type_en", widget: "string" }
+              - { label: "Nome (italiano)", name: "name_it", widget: "string" }
+              - { label: "Nome (inglese)", name: "name_en", widget: "string" }
+              - { label: "Descrizione (italiano)", name: "desc_it", widget: "text" }
+              - { label: "Descrizione (inglese)", name: "desc_en", widget: "text" }
+              - { label: "Caratteristica 1 (italiano)", name: "feat1_it", widget: "string", hint: "es: 20 m²" }
+              - { label: "Caratteristica 1 (inglese)", name: "feat1_en", widget: "string" }
+              - { label: "Caratteristica 2 (italiano)", name: "feat2_it", widget: "string", hint: "es: 2 ospiti" }
+              - { label: "Caratteristica 2 (inglese)", name: "feat2_en", widget: "string" }
+              - { label: "Caratteristica 3 (italiano)", name: "feat3_it", widget: "string", hint: "es: Letto doppio 180×200" }
+              - { label: "Caratteristica 3 (inglese)", name: "feat3_en", widget: "string" }
+              - label: "Foto camera"
+                name: "images"
+                widget: "list"
+                field: { label: "URL foto", name: "url", widget: "image" }
+
+          - label: "🍴 Pagina F&B - Banner"
+            name: "dining_page"
+            widget: "object"
+            fields:
+              - { label: "Foto banner", name: "banner_image", widget: "image" }
+              - { label: "Titolo banner (italiano, HTML)", name: "banner_title_it", widget: "string" }
+              - { label: "Titolo banner (inglese, HTML)", name: "banner_title_en", widget: "string" }
+              - { label: "Separatore Ristorante (italiano, HTML)", name: "separator_title_it", widget: "string" }
+              - { label: "Separatore Ristorante (inglese, HTML)", name: "separator_title_en", widget: "string" }
+              - { label: "Separatore Colazione/Bar (italiano, HTML)", name: "separator2_title_it", widget: "string" }
+              - { label: "Separatore Colazione/Bar (inglese, HTML)", name: "separator2_title_en", widget: "string" }
+
+          - label: "🥘 Pata Negra Bistrot"
+            name: "bistrot"
+            widget: "object"
+            fields:
+              - { label: "Nome", name: "name", widget: "string" }
+              - { label: "URL sito esterno", name: "url", widget: "string" }
+              - { label: "Occhiello (italiano)", name: "eyebrow_it", widget: "string" }
+              - { label: "Occhiello (inglese)", name: "eyebrow_en", widget: "string" }
+              - { label: "Descrizione (italiano)", name: "desc_it", widget: "text" }
+              - { label: "Descrizione (inglese)", name: "desc_en", widget: "text" }
+              - { label: "Giorni apertura (italiano)", name: "hours_days_it", widget: "string", hint: "es: Lun–Dom" }
+              - { label: "Giorni apertura (inglese)", name: "hours_days_en", widget: "string" }
+              - { label: "Orario pranzo", name: "hours_lunch", widget: "string", hint: "es: 12:00 – 14:30" }
+              - { label: "Orario cena", name: "hours_dinner", widget: "string" }
+              - { label: "URL menu (PDF o immagine)", name: "menu_url", widget: "string" }
+              - label: "Foto galleria Bistrot"
+                name: "photos"
+                widget: "list"
+                field: { label: "URL foto", name: "url", widget: "image" }
+
+          - label: "🍽️ Pata Negra Ristorante"
+            name: "ristorante"
+            widget: "object"
+            fields:
+              - { label: "Nome", name: "name", widget: "string" }
+              - { label: "URL sito esterno", name: "url", widget: "string" }
+              - { label: "Occhiello (italiano)", name: "eyebrow_it", widget: "string" }
+              - { label: "Occhiello (inglese)", name: "eyebrow_en", widget: "string" }
+              - { label: "Descrizione (italiano)", name: "desc_it", widget: "text" }
+              - { label: "Descrizione (inglese)", name: "desc_en", widget: "text" }
+              - { label: "Venerdì orario (italiano)", name: "hours_fri_it", widget: "string" }
+              - { label: "Venerdì orario (inglese)", name: "hours_fri_en", widget: "string" }
+              - { label: "Sabato orario", name: "hours_sat", widget: "string" }
+              - { label: "Domenica orario", name: "hours_sun", widget: "string" }
+              - { label: "URL menu ristorante", name: "menu_url", widget: "string" }
+              - { label: "URL carta vini", name: "wine_url", widget: "string" }
+              - label: "Foto galleria Ristorante"
+                name: "photos"
+                widget: "list"
+                field: { label: "URL foto", name: "url", widget: "image" }
+
+          - label: "🥐 Colazione"
+            name: "colazione"
+            widget: "object"
+            fields:
+              - { label: "Occhiello (italiano)", name: "eyebrow_it", widget: "string" }
+              - { label: "Occhiello (inglese)", name: "eyebrow_en", widget: "string" }
+              - { label: "Titolo (italiano, HTML)", name: "title_it", widget: "string" }
+              - { label: "Titolo (inglese, HTML)", name: "title_en", widget: "string" }
+              - { label: "Orari (italiano)", name: "hours_it", widget: "string" }
+              - { label: "Orari (inglese)", name: "hours_en", widget: "string" }
+              - { label: "Descrizione (italiano)", name: "desc_it", widget: "text" }
+              - { label: "Descrizione (inglese)", name: "desc_en", widget: "text" }
+              - { label: "Foto colazione", name: "image_url", widget: "image" }
+
+          - label: "🍸 Bar & Lounge"
+            name: "bar"
+            widget: "object"
+            fields:
+              - { label: "Occhiello (italiano)", name: "eyebrow_it", widget: "string" }
+              - { label: "Occhiello (inglese)", name: "eyebrow_en", widget: "string" }
+              - { label: "Titolo (italiano, HTML)", name: "title_it", widget: "string" }
+              - { label: "Titolo (inglese, HTML)", name: "title_en", widget: "string" }
+              - { label: "Orari (italiano)", name: "hours_it", widget: "string" }
+              - { label: "Orari (inglese)", name: "hours_en", widget: "string" }
+              - { label: "Descrizione (italiano)", name: "desc_it", widget: "text" }
+              - { label: "Descrizione (inglese)", name: "desc_en", widget: "text" }
+              - { label: "Foto bar", name: "image_url", widget: "image" }
+
+          - label: "💆 SPA & Wellness"
+            name: "spa"
+            widget: "object"
+            fields:
+              - { label: "Foto banner pagina", name: "banner_image", widget: "image" }
+              - { label: "Titolo banner (italiano, HTML)", name: "banner_title_it", widget: "string" }
+              - { label: "Titolo banner (inglese, HTML)", name: "banner_title_en", widget: "string" }
+              - { label: "Occhiello (italiano)", name: "eyebrow_it", widget: "string" }
+              - { label: "Occhiello (inglese)", name: "eyebrow_en", widget: "string" }
+              - { label: "Titolo (italiano, HTML)", name: "title_it", widget: "string" }
+              - { label: "Titolo (inglese, HTML)", name: "title_en", widget: "string" }
+              - { label: "Descrizione (italiano)", name: "desc_it", widget: "text" }
+              - { label: "Descrizione (inglese)", name: "desc_en", widget: "text" }
+              - { label: "Badge promo (italiano)", name: "badge_it", widget: "string" }
+              - { label: "Badge promo (inglese)", name: "badge_en", widget: "string" }
+              - { label: "URL sito SPA partner", name: "partner_url", widget: "string" }
+              - { label: "URL menu SPA (PDF)", name: "spa_menu_url", widget: "string" }
+              - { label: "Foto SPA principale", name: "image_url", widget: "image" }
+              - label: "Vantaggi SPA (3 box)"
+                name: "perks"
+                widget: "list"
+                min: 1
+                max: 3
+                fields:
+                  - { label: "Titolo (italiano)", name: "title_it", widget: "string" }
+                  - { label: "Titolo (inglese)", name: "title_en", widget: "string" }
+                  - { label: "Descrizione (italiano)", name: "desc_it", widget: "text" }
+                  - { label: "Descrizione (inglese)", name: "desc_en", widget: "text" }
+
+          - label: "🎉 Eventi"
+            name: "eventi"
+            widget: "object"
+            fields:
+              - { label: "Foto banner pagina", name: "banner_image", widget: "image" }
+              - { label: "Titolo banner (italiano, HTML)", name: "banner_title_it", widget: "string" }
+              - { label: "Titolo banner (inglese, HTML)", name: "banner_title_en", widget: "string" }
+              - { label: "Occhiello introduzione (italiano)", name: "intro_eyebrow_it", widget: "string" }
+              - { label: "Occhiello introduzione (inglese)", name: "intro_eyebrow_en", widget: "string" }
+              - { label: "Titolo introduzione (italiano, HTML)", name: "intro_title_it", widget: "string" }
+              - { label: "Titolo introduzione (inglese, HTML)", name: "intro_title_en", widget: "string" }
+              - { label: "Descrizione (italiano)", name: "desc_it", widget: "text" }
+              - { label: "Descrizione (inglese)", name: "desc_en", widget: "text" }
+              - { label: "Foto introduzione", name: "image_url", widget: "image" }
+              - { label: "Email contatto eventi", name: "contact_email", widget: "string" }
+              - label: "Tipi di evento (badges)"
+                name: "badges"
+                widget: "list"
+                fields:
+                  - { label: "Etichetta (italiano)", name: "label_it", widget: "string" }
+                  - { label: "Etichetta (inglese)", name: "label_en", widget: "string" }
+              - { label: "Occhiello sezione spazi (italiano)", name: "spaces_eyebrow_it", widget: "string" }
+              - { label: "Occhiello sezione spazi (inglese)", name: "spaces_eyebrow_en", widget: "string" }
+              - { label: "Titolo sezione spazi (italiano, HTML)", name: "spaces_title_it", widget: "string" }
+              - { label: "Titolo sezione spazi (inglese, HTML)", name: "spaces_title_en", widget: "string" }
+              - label: "Spazi (6 schede)"
+                name: "spaces"
+                widget: "list"
+                fields:
+                  - { label: "Nome (italiano)", name: "name_it", widget: "string" }
+                  - { label: "Nome (inglese)", name: "name_en", widget: "string" }
+                  - { label: "Descrizione (italiano)", name: "desc_it", widget: "text" }
+                  - { label: "Descrizione (inglese)", name: "desc_en", widget: "text" }
+                  - { label: "Foto spazio", name: "image_url", widget: "image" }
+              - { label: "Occhiello CTA (italiano)", name: "cta_eyebrow_it", widget: "string" }
+              - { label: "Occhiello CTA (inglese)", name: "cta_eyebrow_en", widget: "string" }
+              - { label: "Titolo CTA (italiano, HTML)", name: "cta_title_it", widget: "string" }
+              - { label: "Titolo CTA (inglese, HTML)", name: "cta_title_en", widget: "string" }
+              - { label: "Descrizione CTA (italiano)", name: "cta_desc_it", widget: "text" }
+              - { label: "Descrizione CTA (inglese)", name: "cta_desc_en", widget: "text" }
+
+          - label: "🗺️ Pagina Dove Siamo"
+            name: "location_page"
+            widget: "object"
+            fields:
+              - { label: "Foto banner", name: "banner_image", widget: "image" }
+              - { label: "Occhiello banner (italiano)", name: "banner_ey_it", widget: "string" }
+              - { label: "Occhiello banner (inglese)", name: "banner_ey_en", widget: "string" }
+              - { label: "Titolo banner (italiano, HTML)", name: "banner_title_it", widget: "string" }
+              - { label: "Titolo banner (inglese, HTML)", name: "banner_title_en", widget: "string" }
+              - { label: "Occhiello (italiano)", name: "eyebrow_it", widget: "string" }
+              - { label: "Occhiello (inglese)", name: "eyebrow_en", widget: "string" }
+              - { label: "Titolo (italiano, HTML)", name: "title_it", widget: "string" }
+              - { label: "Titolo (inglese, HTML)", name: "title_en", widget: "string" }
+              - { label: "Foto principale", name: "image_url", widget: "image" }
+
+          - label: "📍 Posizione & Distanze"
+            name: "location"
+            widget: "object"
+            fields:
+              - { label: "URL Google Maps", name: "maps_url", widget: "string" }
+              - { label: "Distanza aeroporto (italiano)", name: "distance_airport_it", widget: "string" }
+              - { label: "Distanza aeroporto (inglese)", name: "distance_airport_en", widget: "string" }
+              - { label: "Distanza stazione (italiano)", name: "distance_train_it", widget: "string" }
+              - { label: "Distanza stazione (inglese)", name: "distance_train_en", widget: "string" }
+              - label: "Galleria foto location (5 immagini)"
+                name: "gallery"
+                widget: "list"
+                field: { label: "URL foto", name: "url", widget: "image" }
+
+          - label: "📄 Footer"
+            name: "footer"
+            widget: "object"
+            fields:
+              - { label: "Descrizione footer (italiano)", name: "description_it", widget: "text" }
+              - { label: "Descrizione footer (inglese)", name: "description_en", widget: "text" }
