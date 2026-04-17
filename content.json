@@ -1,0 +1,201 @@
+{
+  "hotel": {
+    "name": "Suite Hotel Lake & More",
+    "tagline_it": "La tua esperienza esclusiva sul Lago d'Iseo",
+    "tagline_en": "Your exclusive experience on Lake Iseo",
+    "eyebrow_it": "Paratico · Lago d'Iseo · Bergamo",
+    "eyebrow_en": "Paratico · Lake Iseo · Bergamo",
+    "phone": "+39 0350 401243",
+    "email": "reception@lakeandmorehotel.it",
+    "address_it": "Via XXIV Maggio, 40 — Paratico (BS), Italia",
+    "address_en": "Via XXIV Maggio, 40 — Paratico (BS), Italy",
+    "stat_rooms": "63",
+    "stat_restaurants": "2",
+    "stat_rating": "5★",
+    "stat_rooms_label_it": "Camere & Suite",
+    "stat_rooms_label_en": "Rooms & Suites",
+    "stat_rest_label_it": "Ristoranti",
+    "stat_rest_label_en": "Restaurants",
+    "logo_url": "https://www.lakeandmorehotel.it/wp-content/themes/alexandrion-experience/images/logo_white.svg"
+  },
+  "booking": {
+    "engine_url": "INSERISCI_URL_SMARTPMS_QUI",
+    "button_it": "Prenota",
+    "button_en": "Book Now"
+  },
+  "nav": {
+    "camere_it": "Camere", "camere_en": "Rooms",
+    "fb_it": "F&B Outlets", "fb_en": "F&B Outlets",
+    "spa_it": "SPA & Wellness", "spa_en": "SPA & Wellness",
+    "eventi_it": "Eventi", "eventi_en": "Events",
+    "dove_it": "Dove siamo", "dove_en": "Location"
+  },
+  "hero": {
+    "slides": [
+      "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/outside_view.jpeg",
+      "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_7.jpeg",
+      "https://ristorantepatanegra.it/wp-content/uploads/2021/08/Ristorante-1.jpg",
+      "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/lounge.jpeg"
+    ],
+    "cta_book_it": "Prenota subito", "cta_book_en": "Book now",
+    "cta_rooms_it": "Scopri le camere", "cta_rooms_en": "Explore rooms"
+  },
+  "about": {
+    "eyebrow_it": "La nostra storia", "eyebrow_en": "Our story",
+    "title_it": "Un luogo dove il lusso <em>incontra</em> la natura",
+    "title_en": "A place where luxury <em>meets</em> nature",
+    "text_it": "A pochi passi dalle affascinanti rive del Lago d'Iseo, la nostra struttura si distingue per un design contemporaneo e una cura impeccabile per ogni dettaglio. Le camere e suite offrono ambienti luminosi e raffinati, pensati per garantire il massimo benessere.",
+    "text_en": "Steps from the shores of Lake Iseo, our property stands out for its contemporary design and impeccable attention to detail. Our rooms and suites offer bright and refined spaces designed for maximum wellbeing.",
+    "image_url": "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/lounge.jpeg"
+  },
+  "home_features": [
+    {"label_it": "Alloggio", "label_en": "Accommodation", "title_it": "Camere & Suite", "title_en": "Rooms & Suites", "desc_it": "63 camere eleganti con vista lago, montagna e balcone privato.", "desc_en": "63 elegant rooms with lake views, mountain views and private balconies."},
+    {"label_it": "Ristorazione", "label_en": "Dining", "title_it": "F&B Outlets", "title_en": "F&B Outlets", "desc_it": "Bistrot, ristorante gourmet, colazione buffet e lobby bar.", "desc_en": "Bistrot, gourmet restaurant, breakfast buffet and lobby bar."},
+    {"label_it": "Benessere", "label_en": "Wellness", "title_it": "SPA & Wellness", "title_en": "SPA & Wellness", "desc_it": "Palestra inclusa, SPA convenzionata a -10% e trattamenti esclusivi.", "desc_en": "Complimentary gym, partner SPA at -10% and exclusive treatments."},
+    {"label_it": "Posizione", "label_en": "Location", "title_it": "Lago d'Iseo", "title_en": "Lake Iseo", "desc_it": "A 31 min dall'aeroporto di Bergamo, sulle rive del lago.", "desc_en": "31 min from Bergamo airport, right on the shores of the lake."}
+  ],
+  "home_rooms": {
+    "eyebrow_it": "Le nostre camere", "eyebrow_en": "Our rooms",
+    "title_it": "Il tuo <em>rifugio</em> sul lago", "title_en": "Your <em>retreat</em> on the lake",
+    "cards": [
+      {"type_it": "Vista lago", "type_en": "Lake view", "name_it": "Camera Vista Lago", "name_en": "Lake View Room", "image_url": "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_7.jpeg"},
+      {"type_it": "Premium", "type_en": "Premium", "name_it": "Suite", "name_en": "Suite", "image_url": "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_8.jpeg"},
+      {"type_it": "Con balcone", "type_en": "With balcony", "name_it": "Camera con Balcone", "name_en": "Balcony Room", "image_url": "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_2.jpeg"}
+    ]
+  },
+  "home_location": {
+    "eyebrow_it": "Come raggiungerci", "eyebrow_en": "Getting here",
+    "title_it": "Nel cuore del <em>Lago d'Iseo</em>", "title_en": "At the heart of <em>Lake Iseo</em>",
+    "image_url": "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/outside_view.jpeg"
+  },
+  "rooms_page": {
+    "banner_image": "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_7.jpeg",
+    "banner_ey_it": "Suite Hotel Lake & More", "banner_ey_en": "Suite Hotel Lake & More",
+    "banner_title_it": "Camere <em>& Suite</em>", "banner_title_en": "Rooms <em>& Suites</em>"
+  },
+  "rooms": [
+    {"id": "regular", "type_it": "Standard", "type_en": "Standard", "name_it": "Camera Regular", "name_en": "Regular Room", "desc_it": "Pensate per chi viaggia da solo o in coppia, le Camere Regular uniscono eleganza e comfort in un ambiente accogliente e sereno.", "desc_en": "Designed for solo travellers or couples, Regular Rooms combine elegance and comfort in a welcoming environment.", "feat1_it": "20 m²", "feat1_en": "20 m²", "feat2_it": "2 ospiti", "feat2_en": "2 guests", "feat3_it": "Letto singolo 90×200", "feat3_en": "Single bed 90×200", "images": ["https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_1.jpeg", "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_3.jpeg", "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_6.jpeg", "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_10.jpeg", "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_2.jpeg"]},
+    {"id": "balcone", "type_it": "Con balcone", "type_en": "With balcony", "name_it": "Camera con Balcone", "name_en": "Balcony Room", "desc_it": "Il balcone privato crea un angolo esclusivo per godersi l'aria fresca e i panorami del territorio.", "desc_en": "The private balcony creates an exclusive corner to enjoy fresh air and surrounding views.", "feat1_it": "20 m²", "feat1_en": "20 m²", "feat2_it": "2 ospiti", "feat2_en": "2 guests", "feat3_it": "Letto doppio 180×200", "feat3_en": "Double bed 180×200", "images": ["https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_2.jpeg", "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_4.jpeg", "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_5.jpeg"]},
+    {"id": "lago", "type_it": "Vista lago", "type_en": "Lake view", "name_it": "Camera Vista Lago", "name_en": "Lake View Room", "desc_it": "La vista spettacolare sul Lago d'Iseo permette di immergersi nella tranquillità del paesaggio.", "desc_en": "The spectacular view over Lake Iseo lets you immerse in the tranquillity of the landscape.", "feat1_it": "20 m²", "feat1_en": "20 m²", "feat2_it": "2 ospiti", "feat2_en": "2 guests", "feat3_it": "Vista lago · Letto doppio 180×200", "feat3_en": "Lake view · Double bed 180×200", "images": ["https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_7.jpeg", "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_8.jpeg", "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_9.jpeg"]},
+    {"id": "montagna", "type_it": "Vista montagna", "type_en": "Mountain view", "name_it": "Camera Vista Montagna", "name_en": "Mountain View Room", "desc_it": "La vista sulle montagne circostanti offre l'equilibrio ideale tra design contemporaneo e paesaggi indimenticabili.", "desc_en": "The view of surrounding mountains offers the ideal balance between contemporary design and unforgettable landscapes.", "feat1_it": "20 m²", "feat1_en": "20 m²", "feat2_it": "2 ospiti", "feat2_en": "2 guests", "feat3_it": "Vista montagna · Letto doppio 180×200", "feat3_en": "Mountain view · Double bed 180×200", "images": ["https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_11.jpeg", "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_12.jpeg"]},
+    {"id": "deluxe", "type_it": "Deluxe", "type_en": "Deluxe", "name_it": "Camera Deluxe", "name_en": "Deluxe Room", "desc_it": "Più spazio e comfort superiori per chi non rinuncia a nulla.", "desc_en": "More space and superior comfort for those who want it all.", "feat1_it": "25 m²", "feat1_en": "25 m²", "feat2_it": "4 ospiti", "feat2_en": "4 guests", "feat3_it": "Letto doppio 180×200", "feat3_en": "Double bed 180×200", "images": ["https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_11.jpeg", "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_9.jpeg"]},
+    {"id": "family", "type_it": "Family", "type_en": "Family", "name_it": "Camera Family", "name_en": "Family Room", "desc_it": "Spaziose e accoglienti, progettate per il massimo del comfort delle famiglie.", "desc_en": "Spacious and welcoming, designed for maximum family comfort.", "feat1_it": "25 m²", "feat1_en": "25 m²", "feat2_it": "4 ospiti", "feat2_en": "4 guests", "feat3_it": "Letto doppio 180×200", "feat3_en": "Double bed 180×200", "images": ["https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_6.jpeg", "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_7.jpeg"]},
+    {"id": "suite", "type_it": "Suite", "type_en": "Suite", "name_it": "Suite", "name_en": "Suite", "desc_it": "Due ambienti distinti — camera da letto con letto matrimoniale e ampio salotto privato.", "desc_en": "Two distinct living areas — king-size bedroom and generous private living room.", "feat1_it": "da 25 m²", "feat1_en": "from 25 m²", "feat2_it": "4 ospiti", "feat2_en": "4 guests", "feat3_it": "Letto matrimoniale · Salotto privato", "feat3_en": "King bed · Private living room", "images": ["https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_8.jpeg", "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_9.jpeg"]}
+  ],
+  "dining_page": {
+    "banner_image": "https://ristorantepatanegra.it/wp-content/uploads/2021/08/Ristorante-1.jpg",
+    "banner_title_it": "F&B <em>Outlets</em>", "banner_title_en": "F&B <em>Outlets</em>",
+    "separator_title_it": "Scopri anche il nostro <em>Ristorante Gourmet</em>", "separator_title_en": "Discover our <em>Gourmet Restaurant</em>",
+    "separator2_title_it": "Ogni mattina e ogni sera — <em>nel cuore dell'hotel</em>", "separator2_title_en": "Every morning and every evening — <em>at the heart of the hotel</em>"
+  },
+  "bistrot": {
+    "name": "Pata Negra Bistrot",
+    "url": "https://ristorantepatanegra.it/",
+    "eyebrow_it": "Sapori di Spagna", "eyebrow_en": "Flavours of Spain",
+    "desc_it": "L'anima del Pata Negra Bistrot è la Spagna: tapas preparate con ingredienti selezionati, paella tradizionale e una carta vini che abbraccia le migliori etichette iberiche e italiane.",
+    "desc_en": "The soul of Pata Negra Bistrot is Spain: tapas crafted from hand-picked ingredients, traditional paella and a wine list of the finest Iberian and Italian labels.",
+    "hours_days_it": "Lun–Dom", "hours_days_en": "Mon–Sun",
+    "hours_lunch": "12:00 – 14:30",
+    "hours_dinner": "19:30 – 22:00",
+    "menu_url": "https://ristorantepatanegra.it/wp-content/uploads/2026/02/Menu-bistrot.jpg",
+    "photos": ["https://ristorantepatanegra.it/wp-content/uploads/2021/08/Bistrot4.jpg", "https://ristorantepatanegra.it/wp-content/uploads/2021/08/Bistrot7.jpg", "https://ristorantepatanegra.it/wp-content/uploads/2021/08/Bistrot5.jpg", "https://ristorantepatanegra.it/wp-content/uploads/2021/08/Bistrot3.jpg", "https://ristorantepatanegra.it/wp-content/uploads/2021/08/Bistrot6.jpg", "https://ristorantepatanegra.it/wp-content/uploads/2021/08/Bistrot2.jpg"]
+  },
+  "ristorante": {
+    "name": "Pata Negra Ristorante",
+    "url": "https://ristorantepatanegra.it/",
+    "eyebrow_it": "Cucina d'autore", "eyebrow_en": "Gourmet cuisine",
+    "desc_it": "Il Ristorante Pata Negra è un'esperienza gastronomica riservata e raffinata, dove ogni dettaglio è curato per esaltare il piacere della tavola.",
+    "desc_en": "Pata Negra Restaurant is a refined and intimate gastronomic experience, where every detail elevates the pleasure of the table.",
+    "hours_fri_it": "Cena: 19:30 – 22:00", "hours_fri_en": "Dinner: 19:30 – 22:00",
+    "hours_sat": "12:00–14:30 | 19:30–22:00",
+    "hours_sun": "12:00–14:30 | 19:30–22:00",
+    "menu_url": "https://ristorantepatanegra.it/wp-content/uploads/2026/02/Menu-ristorante.pdf",
+    "wine_url": "https://ristorantepatanegra.it/wp-content/uploads/2023/03/VINO-AGGIORNATO-MARZO-23.pdf",
+    "photos": ["https://ristorantepatanegra.it/wp-content/uploads/2021/08/Ristorante8.jpg", "https://ristorantepatanegra.it/wp-content/uploads/2021/08/Ristorante2.jpg", "https://ristorantepatanegra.it/wp-content/uploads/2021/08/Ristorante-1.jpg", "https://ristorantepatanegra.it/wp-content/uploads/2021/08/Ristorante3.jpg", "https://ristorantepatanegra.it/wp-content/uploads/2021/08/Ristorante5.jpg", "https://ristorantepatanegra.it/wp-content/uploads/2021/08/Ristorante7.jpg"]
+  },
+  "colazione": {
+    "eyebrow_it": "Inclusa nel soggiorno", "eyebrow_en": "Included in your stay",
+    "title_it": "Colazione <em>Buffet</em>", "title_en": "Breakfast <em>Buffet</em>",
+    "hours_it": "Ogni giorno · 07:30 – 10:30", "hours_en": "Daily · 07:30 – 10:30",
+    "desc_it": "Iniziate la giornata con il nostro ricco buffet: prodotti freschi di stagione, dolci artigianali, formaggi e salumi locali.",
+    "desc_en": "Begin your day with our generous buffet: fresh seasonal produce, artisan pastries, local cheeses and cured meats.",
+    "image_url": "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/breakfast.jpeg"
+  },
+  "bar": {
+    "eyebrow_it": "Lobby Bar", "eyebrow_en": "Lobby Bar",
+    "title_it": "Bar <em>& Lounge</em>", "title_en": "Bar <em>& Lounge</em>",
+    "hours_it": "Tutti i giorni · 08:00 – 23:30", "hours_en": "Every day · 08:00 – 23:30",
+    "desc_it": "Il Lobby Bar è il luogo ideale per un aperitivo al tramonto, un cocktail serale o un momento di pausa nel comfort dell'hotel.",
+    "desc_en": "The Lobby Bar is the ideal spot for a sunset aperitivo, evening cocktail or quiet moment in the hotel's comfort.",
+    "image_url": "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/bar.jpeg"
+  },
+  "spa": {
+    "banner_image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=2340&auto=format&fit=crop",
+    "banner_title_it": "SPA <em>& Wellness</em>", "banner_title_en": "SPA <em>& Wellness</em>",
+    "eyebrow_it": "Benessere & Relax", "eyebrow_en": "Wellbeing & Relaxation",
+    "title_it": "Il vostro benessere è la <em>nostra priorità</em>",
+    "title_en": "Your wellbeing is <em>our priority</em>",
+    "desc_it": "Al Suite Hotel Lake and More, ogni dettaglio è pensato per offrirvi un soggiorno all'insegna del comfort, della salute e del benessere.",
+    "desc_en": "At Suite Hotel Lake and More, every detail is designed to offer you a stay centred on comfort, health and wellbeing.",
+    "badge_it": "SPA partner: sconto esclusivo -10%",
+    "badge_en": "Partner SPA: exclusive -10% discount",
+    "partner_url": "https://www.franciacortafitness.it/",
+    "spa_menu_url": "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/pacchetti_spa_sept_2025.pdf",
+    "image_url": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=2340&auto=format&fit=crop",
+    "perks": [
+      {"title_it": "Palestra convenzionata — inclusa nel soggiorno", "title_en": "Partner gym — included in your stay", "desc_it": "Accesso gratuito alla palestra convenzionata con attrezzature nuove e moderne.", "desc_en": "Complimentary access to our partner gym with modern equipment."},
+      {"title_it": "Franciacortafitness SPA — a soli 2 minuti, sconto -10%", "title_en": "Franciacortafitness SPA — 2 minutes away, -10% discount", "desc_it": "Accesso agevolato con sconto esclusivo del 10% alla SPA convenzionata.", "desc_en": "Exclusive 10% discount at our partner SPA for total relaxation."},
+      {"title_it": "Servizio parrucchiera su prenotazione", "title_en": "Hairdresser service on request", "desc_it": "Servizio parrucchiera disponibile su prenotazione durante il soggiorno.", "desc_en": "Hairdresser service available on request during your stay."}
+    ]
+  },
+  "eventi": {
+    "banner_image": "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/dinner_table.jpeg",
+    "banner_title_it": "Spazi per i tuoi <em>Eventi</em>", "banner_title_en": "Spaces for your <em>Events</em>",
+    "intro_eyebrow_it": "Il luogo perfetto", "intro_eyebrow_en": "The perfect venue",
+    "intro_title_it": "Ogni occasione <em>merita</em> il meglio", "intro_title_en": "Every occasion <em>deserves</em> the best",
+    "desc_it": "Sulle rive del Lago d'Iseo, il Suite Hotel Lake & More offre scenari di rara bellezza per ogni tipo di evento: cene di gala, anniversari, team building aziendali e conferenze private.",
+    "desc_en": "On the shores of Lake Iseo, Suite Hotel Lake & More offers settings of rare beauty for every type of event: gala dinners, anniversaries, corporate team building and private conferences.",
+    "image_url": "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/lounge.jpeg",
+    "badges": [
+      {"label_it": "Aziendali", "label_en": "Corporate"},
+      {"label_it": "Cene di gala", "label_en": "Gala dinners"},
+      {"label_it": "Anniversari", "label_en": "Anniversaries"},
+      {"label_it": "Team Building", "label_en": "Team Building"}
+    ],
+    "spaces_eyebrow_it": "I nostri spazi", "spaces_eyebrow_en": "Our spaces",
+    "spaces_title_it": "Ambienti <em>esclusivi</em> per ogni evento", "spaces_title_en": "<em>Exclusive</em> spaces for every event",
+    "spaces": [
+      {"name_it": "Sala Ristorante", "name_en": "Restaurant Room", "desc_it": "La sala del Pata Negra Ristorante, riservabile privatamente, offre un'atmosfera elegante per cene esclusive fino a 40 ospiti.", "desc_en": "The Pata Negra Restaurant dining room, available for private hire, offers an elegant atmosphere for exclusive dinners up to 40 guests.", "image_url": "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/dinner_table.jpeg"},
+      {"name_it": "Terrazza sul Lago", "name_en": "Lakeside Terrace", "desc_it": "Una terrazza con vista mozzafiato sul Lago d'Iseo: lo scenario ideale per aperitivi e cerimonie all'aperto.", "desc_en": "A terrace with breathtaking views over Lake Iseo — ideal for aperitivo receptions and outdoor ceremonies.", "image_url": "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/outside_view.jpeg"},
+      {"name_it": "Lounge & Bar", "name_en": "Lounge & Bar", "desc_it": "Il Lobby Bar e la lounge dell'hotel sono disponibili per eventi di benvenuto e cocktail di apertura.", "desc_en": "The hotel's Lobby Bar and lounge are available for welcome events and opening cocktails.", "image_url": "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/lounge.jpeg"},
+      {"name_it": "Suite & Camere", "name_en": "Suites & Rooms", "desc_it": "Per gli ospiti che si fermano a dormire, le nostre suite garantiscono il massimo del comfort.", "desc_en": "For guests staying overnight, our suites ensure maximum comfort.", "image_url": "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_8.jpeg"},
+      {"name_it": "Pata Negra Bistrot", "name_en": "Pata Negra Bistrot", "desc_it": "L'atmosfera vivace del Bistrot si presta a eventi informali e celebrazioni conviviali.", "desc_en": "The lively atmosphere of the Bistrot is perfect for informal events and convivial celebrations.", "image_url": "https://ristorantepatanegra.it/wp-content/uploads/2021/08/Bistrot4.jpg"},
+      {"name_it": "Spazi Comuni Esclusivi", "name_en": "Exclusive Common Spaces", "desc_it": "L'intera struttura può essere riservata per eventi esclusivi di grandi dimensioni.", "desc_en": "The entire property can be exclusively reserved for large-scale events.", "image_url": "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/bar_2.jpeg"}
+    ],
+    "cta_eyebrow_it": "Organizziamo insieme il tuo evento", "cta_eyebrow_en": "Let us plan your event together",
+    "cta_title_it": "Contattaci per un <em>preventivo personalizzato</em>", "cta_title_en": "Contact us for a <em>personalised quote</em>",
+    "cta_desc_it": "Il nostro team è a disposizione per aiutarvi a progettare ogni dettaglio del vostro evento.",
+    "cta_desc_en": "Our team is on hand to help you design every detail of your event.",
+    "contact_email": "reception@lakeandmorehotel.it"
+  },
+  "location_page": {
+    "banner_image": "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/outside_view.jpeg",
+    "banner_ey_it": "Lago d'Iseo · Bergamo", "banner_ey_en": "Lake Iseo · Bergamo",
+    "banner_title_it": "Dove <em>siamo</em>", "banner_title_en": "Find <em>us</em>",
+    "eyebrow_it": "Come raggiungerci", "eyebrow_en": "Getting here",
+    "title_it": "Nel cuore del <em>Lago d'Iseo</em>", "title_en": "At the heart of <em>Lake Iseo</em>",
+    "image_url": "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/outside_view.jpeg"
+  },
+  "location": {
+    "maps_url": "https://maps.google.com/?q=Suite+Hotel+Lake+and+More+Via+XXIV+Maggio+40+Paratico+Brescia",
+    "distance_airport_it": "Aeroporto Bergamo Orio al Serio: 32 km · 31 min in auto",
+    "distance_airport_en": "Bergamo Orio al Serio Airport: 32 km · 31 min by car",
+    "distance_train_it": "Stazione Paratico-Sarnico: 5 min a piedi",
+    "distance_train_en": "Paratico-Sarnico Station: 5 min walk",
+    "gallery": ["https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/outside_view.jpeg", "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/bar.jpeg", "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/breakfast.jpeg", "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/dinner_table.jpeg", "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/bar_2.jpeg"]
+  },
+  "footer": {
+    "description_it": "Dove l'eleganza del design contemporaneo incontra la bellezza naturale del Lago d'Iseo.",
+    "description_en": "Where contemporary elegance meets the natural beauty of Lake Iseo."
+  }
+}
