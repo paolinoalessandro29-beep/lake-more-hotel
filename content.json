@@ -410,7 +410,7 @@
     ]
   },
   "booking": {
-    "engine_url": "INSERISCI_URL_SMARTPMS_QUI",
+    "engine_url": "https://suitehotellakeandmore.bookpage.io",
     "button_it": "Prenota",
     "button_en": "Book Now"
   },
