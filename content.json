@@ -38,7 +38,7 @@
     ],
     "badge_it": "SPA partner: sconto esclusivo -10%",
     "banner_image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=2340&auto=format&fit=crop",
-    "spa_menu_url": "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/pacchetti_spa_sept_2025.pdf",
+    "spa_menu_url": "/images/pacchetti_spa_sept_2025.pdf",
     "image_url": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=2340&auto=format&fit=crop",
     "title_en": "Your wellbeing is <em>our priority</em>",
     "title_it": "Il vostro benessere è la <em>nostra priorità</em>",
@@ -54,7 +54,7 @@
     "title_en": "A place where luxury <em>meets</em> nature",
     "text_it": "A pochi passi dalle affascinanti rive del Lago d'Iseo, la nostra struttura si distingue per un design contemporaneo e una cura impeccabile per ogni dettaglio. Le camere e suite offrono ambienti luminosi e raffinati, pensati per garantire il massimo benessere.",
     "text_en": "Steps from the shores of Lake Iseo, our property stands out for its contemporary design and impeccable attention to detail. Our rooms and suites offer bright and refined spaces designed for maximum wellbeing.",
-    "image_url": "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/lounge.jpeg"
+    "image_url": "/images/lounge.jpeg"
   },
   "eventi": {
     "cta_title_it": "Contattaci per un <em>preventivo personalizzato</em>",
@@ -65,9 +65,9 @@
     "banner_title_it": "Spazi per i tuoi <em>Eventi</em>",
     "intro_title_it": "Ogni occasione <em>merita</em> il meglio",
     "cta_desc_en": "Our team is on hand to help you design every detail of your event.",
-    "banner_image": "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/dinner_table.jpeg",
+    "banner_image": "/images/dinner_table.jpeg",
     "cta_desc_it": "Il nostro team è a disposizione per aiutarvi a progettare ogni dettaglio del vostro evento.",
-    "image_url": "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/lounge.jpeg",
+    "image_url": "/images/lounge.jpeg",
     "spaces": [
       {
         "name_it": "Sala Ristorante",
@@ -81,21 +81,21 @@
         "name_en": "Lakeside Terrace",
         "desc_it": "Una terrazza con vista mozzafiato sul Lago d'Iseo: lo scenario ideale per aperitivi e cerimonie all'aperto.",
         "desc_en": "A terrace with breathtaking views over Lake Iseo — ideal for aperitivo receptions and outdoor ceremonies.",
-        "image_url": "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/outside_view.jpeg"
+        "image_url": "/images/outside_view.jpeg"
       },
       {
         "name_it": "Lounge & Bar",
         "name_en": "Lounge & Bar",
         "desc_it": "Il Lobby Bar e la lounge dell'hotel sono disponibili per eventi di benvenuto e cocktail di apertura.",
         "desc_en": "The hotel's Lobby Bar and lounge are available for welcome events and opening cocktails.",
-        "image_url": "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/lounge.jpeg"
+        "image_url": "/images/lounge.jpeg"
       },
       {
         "name_it": "Suite & Camere",
         "name_en": "Suites & Rooms",
         "desc_it": "Per gli ospiti che si fermano a dormire, le nostre suite garantiscono il massimo del comfort.",
         "desc_en": "For guests staying overnight, our suites ensure maximum comfort.",
-        "image_url": "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_8.jpeg"
+        "image_url": "/images/camera_details_8.jpeg"
       },
       {
         "name_it": "Pata Negra Bistrot",
@@ -109,7 +109,7 @@
         "name_en": "Exclusive Common Spaces",
         "desc_it": "L'intera struttura può essere riservata per eventi esclusivi di grandi dimensioni.",
         "desc_en": "The entire property can be exclusively reserved for large-scale events.",
-        "image_url": "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/bar_2.jpeg"
+        "image_url": "/images/bar_2.jpeg"
       }
     ],
     "cta_eyebrow_en": "Let us plan your event together",
@@ -164,7 +164,7 @@
   },
   "bar": {
     "eyebrow_it": "Lobby Bar",
-    "image_url": "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/bar.jpeg",
+    "image_url": "/images/bar.jpeg",
     "title_en": "Bar <em>& Lounge</em>",
     "title_it": "Bar <em>& Lounge</em>",
     "desc_en": "The Lobby Bar is the ideal spot for a sunset aperitivo, evening cocktail or quiet moment in the hotel's comfort.",
@@ -187,7 +187,7 @@
     "address_it": "Via XXIV Maggio, 40 — Paratico (BS), Italia",
     "stat_rest_label_it": "Ristoranti",
     "tagline_en": "Your exclusive experience on Lake Iseo",
-    "logo_url": "https://www.lakeandmorehotel.it/wp-content/themes/alexandrion-experience/images/logo_white.svg",
+    "logo_url": "/images/logo_white.svg",
     "tagline_it": "La tua esperienza esclusiva sul Lago d'Iseo",
     "email": "reception@lakeandmorehotel.it",
     "eyebrow_en": "Paratico · Lake Iseo · Bergamo"
@@ -206,7 +206,7 @@
     "eyebrow_en": "Getting here",
     "title_it": "Nel cuore del <em>Lago d'Iseo</em>",
     "title_en": "At the heart of <em>Lake Iseo</em>",
-    "image_url": "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/outside_view.jpeg"
+    "image_url": "/images/outside_view.jpeg"
   },
   "location": {
     "maps_url": "https://maps.google.com/?q=Suite+Hotel+Lake+and+More+Via+XXIV+Maggio+40+Paratico+Brescia",
@@ -215,16 +215,16 @@
     "distance_train_it": "Stazione Paratico-Sarnico: 5 min a piedi",
     "distance_train_en": "Paratico-Sarnico Station: 5 min walk",
     "gallery": [
-      "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/outside_view.jpeg",
-      "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/bar.jpeg",
-      "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/breakfast.jpeg",
-      "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/dinner_table.jpeg",
-      "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/bar_2.jpeg"
+      "/images/outside_view.jpeg",
+      "/images/bar.jpeg",
+      "/images/breakfast.jpeg",
+      "/images/dinner_table.jpeg",
+      "/images/bar_2.jpeg"
     ]
   },
   "colazione": {
     "eyebrow_it": "Inclusa nel soggiorno",
-    "image_url": "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/breakfast.jpeg",
+    "image_url": "/images/breakfast.jpeg",
     "title_en": "Breakfast <em>Buffet</em>",
     "title_it": "Colazione <em>Buffet</em>",
     "desc_en": "Begin your day with our generous buffet: fresh seasonal produce, artisan pastries, local cheeses and cured meats.",
@@ -234,7 +234,7 @@
     "eyebrow_en": "Included in your stay"
   },
   "rooms_page": {
-    "banner_image": "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_7.jpeg",
+    "banner_image": "/images/camera_details_7.jpeg",
     "banner_ey_it": "Suite Hotel Lake & More",
     "banner_ey_en": "Suite Hotel Lake & More",
     "banner_title_it": "Camere <em>& Suite</em>",
@@ -252,11 +252,11 @@
       "type_it": "Standard",
       "desc_en": "Designed for solo travellers or couples, Regular Rooms combine elegance and comfort in a welcoming environment.",
       "images": [
-        "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_1.jpeg",
-        "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_3.jpeg",
-        "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_6.jpeg",
-        "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_10.jpeg",
-        "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_2.jpeg"
+        "/images/camera_details_1.jpeg",
+        "/images/camera_details_3.jpeg",
+        "/images/camera_details_6.jpeg",
+        "/images/camera_details_10.jpeg",
+        "/images/camera_details_2.jpeg"
       ],
       "desc_it": "Pensate per chi viaggia da solo o in coppia, le Camere Regular uniscono eleganza e comfort in un ambiente accogliente e sereno.",
       "id": "regular",
@@ -274,9 +274,9 @@
       "type_it": "Con balcone",
       "desc_en": "The private balcony creates an exclusive corner to enjoy fresh air and surrounding views.",
       "images": [
-        "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_2.jpeg",
-        "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_4.jpeg",
-        "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_5.jpeg"
+        "/images/camera_details_2.jpeg",
+        "/images/camera_details_4.jpeg",
+        "/images/camera_details_5.jpeg"
       ],
       "desc_it": "Il balcone privato crea un angolo esclusivo per godersi l'aria fresca e i panorami del territorio.",
       "id": "balcone",
@@ -294,9 +294,9 @@
       "type_it": "Vista lago",
       "desc_en": "The spectacular view over Lake Iseo lets you immerse in the tranquillity of the landscape.",
       "images": [
-        "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_7.jpeg",
-        "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_8.jpeg",
-        "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_9.jpeg"
+        "/images/camera_details_7.jpeg",
+        "/images/camera_details_8.jpeg",
+        "/images/camera_details_9.jpeg"
       ],
       "desc_it": "La vista spettacolare sul Lago d'Iseo permette di immergersi nella tranquillità del paesaggio.",
       "id": "lago",
@@ -314,8 +314,8 @@
       "type_it": "Vista montagna",
       "desc_en": "The view of surrounding mountains offers the ideal balance between contemporary design and unforgettable landscapes.",
       "images": [
-        "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_11.jpeg",
-        "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_12.jpeg"
+        "/images/camera_details_11.jpeg",
+        "/images/camera_details_10.jpeg"
       ],
       "desc_it": "La vista sulle montagne circostanti offre l'equilibrio ideale tra design contemporaneo e paesaggi indimenticabili.",
       "id": "montagna",
@@ -333,8 +333,8 @@
       "type_it": "Deluxe",
       "desc_en": "More space and superior comfort for those who want it all.",
       "images": [
-        "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_11.jpeg",
-        "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_9.jpeg"
+        "/images/camera_details_11.jpeg",
+        "/images/camera_details_9.jpeg"
       ],
       "desc_it": "Più spazio e comfort superiori per chi non rinuncia a nulla.",
       "id": "deluxe",
@@ -352,8 +352,8 @@
       "type_it": "Family",
       "desc_en": "Spacious and welcoming, designed for maximum family comfort.",
       "images": [
-        "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_6.jpeg",
-        "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_7.jpeg"
+        "/images/camera_details_6.jpeg",
+        "/images/camera_details_7.jpeg"
       ],
       "desc_it": "Spaziose e accoglienti, progettate per il massimo del comfort delle famiglie.",
       "id": "family",
@@ -371,8 +371,8 @@
       "type_it": "Suite",
       "desc_en": "Two distinct living areas — king-size bedroom and generous private living room.",
       "images": [
-        "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_8.jpeg",
-        "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_9.jpeg"
+        "/images/camera_details_8.jpeg",
+        "/images/camera_details_9.jpeg"
       ],
       "desc_it": "Due ambienti distinti — camera da letto con letto matrimoniale e ampio salotto privato.",
       "id": "suite",
@@ -391,21 +391,21 @@
         "type_en": "Lake view",
         "name_it": "Camera Vista Lago",
         "name_en": "Lake View Room",
-        "image_url": "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_7.jpeg"
+        "image_url": "/images/camera_details_7.jpeg"
       },
       {
         "type_it": "Premium",
         "type_en": "Premium",
         "name_it": "Suite",
         "name_en": "Suite",
-        "image_url": "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_8.jpeg"
+        "image_url": "/images/camera_details_8.jpeg"
       },
       {
         "type_it": "Con balcone",
         "type_en": "With balcony",
         "name_it": "Camera con Balcone",
         "name_en": "Balcony Room",
-        "image_url": "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_2.jpeg"
+        "image_url": "/images/camera_details_2.jpeg"
       }
     ]
   },
@@ -442,18 +442,18 @@
     "banner_ey_it": "Lago d'Iseo · Bergamo",
     "banner_title_en": "Find <em>us</em>",
     "banner_title_it": "Dove <em>siamo</em>",
-    "banner_image": "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/outside_view.jpeg",
-    "image_url": "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/outside_view.jpeg",
+    "banner_image": "/images/outside_view.jpeg",
+    "image_url": "/images/outside_view.jpeg",
     "title_en": "At the heart of <em>Lake Iseo</em>",
     "title_it": "Nel cuore del <em>Lago d'Iseo</em>",
     "eyebrow_en": "Getting here"
   },
   "hero": {
     "slides": [
-      "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/outside_view.jpeg",
-      "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/camera_details_7.jpeg",
+      "/images/outside_view.jpeg",
+      "/images/camera_details_7.jpeg",
       "https://ristorantepatanegra.it/wp-content/uploads/2021/08/Ristorante-1.jpg",
-      "https://www.lakeandmorehotel.it/wp-content/uploads/sites/95/2025/09/lounge.jpeg"
+      "/images/lounge.jpeg"
     ],
     "cta_book_it": "Prenota subito",
     "cta_book_en": "Book now",
